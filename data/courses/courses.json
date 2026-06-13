@@ -1,0 +1,351 @@
+{
+  "institute": {
+    "name": "Horizon Institute of Applied Studies",
+    "short_name": "HIAS",
+    "location": "Sydney, NSW, Australia",
+    "note": "Fictional institute created for a portfolio RAG chatbot project.",
+    "currency": "AUD",
+    "intake_periods": ["July 2026", "October 2026", "February 2027"]
+  },
+  "courses": [
+    {
+      "code": "DIP-IT-101",
+      "name": "Diploma of Information Technology",
+      "level": "diploma",
+      "stream": "IT",
+      "duration_months": 12,
+      "delivery": "On-campus or Online",
+      "intakes": [
+        { "start": "2026-07-20", "end": "2027-07-09" },
+        { "start": "2026-10-12", "end": "2027-10-01" }
+      ],
+      "fees_total": 12500,
+      "payment_plan": "4 instalments of 3,125 per term",
+      "prerequisites": "Completion of Year 12 (or equivalent) with a pass in English. No prior IT experience required.",
+      "suitable_for": "school_passout",
+      "interests": ["technology", "computers", "software", "networking"],
+      "career_outcomes": ["IT Support Officer", "Junior Network Technician", "Helpdesk Analyst"],
+      "pathway_to": "BIT-201"
+    },
+    {
+      "code": "DIP-DA-102",
+      "name": "Diploma of Data Analytics",
+      "level": "diploma",
+      "stream": "IT",
+      "duration_months": 12,
+      "delivery": "Online",
+      "intakes": [
+        { "start": "2026-07-20", "end": "2027-07-09" },
+        { "start": "2027-02-08", "end": "2028-01-28" }
+      ],
+      "fees_total": 13200,
+      "payment_plan": "4 instalments of 3,300 per term",
+      "prerequisites": "Completion of Year 12 (or equivalent) with a pass in Mathematics.",
+      "suitable_for": "school_passout",
+      "interests": ["data", "numbers", "analysis", "statistics", "technology"],
+      "career_outcomes": ["Data Entry Analyst", "Junior Data Analyst", "Reporting Assistant"],
+      "pathway_to": "BCS-202"
+    },
+    {
+      "code": "DIP-BUS-103",
+      "name": "Diploma of Business",
+      "level": "diploma",
+      "stream": "Business",
+      "duration_months": 12,
+      "delivery": "On-campus or Online",
+      "intakes": [
+        { "start": "2026-07-20", "end": "2027-07-09" },
+        { "start": "2026-10-12", "end": "2027-10-01" }
+      ],
+      "fees_total": 11800,
+      "payment_plan": "4 instalments of 2,950 per term",
+      "prerequisites": "Completion of Year 12 (or equivalent). No prior business experience required.",
+      "suitable_for": "school_passout",
+      "interests": ["business", "management", "entrepreneurship", "office work"],
+      "career_outcomes": ["Administration Officer", "Office Coordinator", "Junior Business Analyst"],
+      "pathway_to": "BBUS-203"
+    },
+    {
+      "code": "DIP-DM-104",
+      "name": "Diploma of Digital Marketing",
+      "level": "diploma",
+      "stream": "Business",
+      "duration_months": 10,
+      "delivery": "Online",
+      "intakes": [
+        { "start": "2026-10-12", "end": "2027-08-06" },
+        { "start": "2027-02-08", "end": "2027-12-03" }
+      ],
+      "fees_total": 10900,
+      "payment_plan": "3 instalments of 3,634 per term",
+      "prerequisites": "Completion of Year 12 (or equivalent) with a pass in English.",
+      "suitable_for": "school_passout",
+      "interests": ["marketing", "social media", "creativity", "advertising", "content"],
+      "career_outcomes": ["Social Media Coordinator", "Digital Marketing Assistant", "SEO Junior Analyst"],
+      "pathway_to": "BBUS-203"
+    },
+    {
+      "code": "DIP-HS-105",
+      "name": "Diploma of Health Services Assistance",
+      "level": "diploma",
+      "stream": "Health",
+      "duration_months": 12,
+      "delivery": "On-campus (clinical placement required)",
+      "intakes": [
+        { "start": "2026-07-20", "end": "2027-07-09" },
+        { "start": "2027-02-08", "end": "2028-01-28" }
+      ],
+      "fees_total": 14500,
+      "payment_plan": "4 instalments of 3,625 per term",
+      "prerequisites": "Completion of Year 12 (or equivalent). National Police Check and immunisation record required before clinical placement.",
+      "suitable_for": "school_passout",
+      "interests": ["healthcare", "helping people", "medicine", "care work"],
+      "career_outcomes": ["Health Services Assistant", "Patient Care Assistant", "Ward Support Officer"],
+      "pathway_to": "BNUR-205"
+    },
+    {
+      "code": "DIP-CS-106",
+      "name": "Diploma of Community Services",
+      "level": "diploma",
+      "stream": "Health",
+      "duration_months": 12,
+      "delivery": "On-campus or Online (placement required)",
+      "intakes": [
+        { "start": "2026-10-12", "end": "2027-10-01" }
+      ],
+      "fees_total": 12900,
+      "payment_plan": "4 instalments of 3,225 per term",
+      "prerequisites": "Completion of Year 12 (or equivalent). Working With Children Check required before placement.",
+      "suitable_for": "school_passout",
+      "interests": ["helping people", "social work", "community", "counselling"],
+      "career_outcomes": ["Community Support Worker", "Case Work Assistant", "Youth Support Worker"],
+      "pathway_to": "BHSC-206"
+    },
+    {
+      "code": "BIT-201",
+      "name": "Bachelor of Information Technology",
+      "level": "undergraduate",
+      "stream": "IT",
+      "duration_months": 36,
+      "delivery": "On-campus or Online",
+      "intakes": [
+        { "start": "2026-07-20", "end": "2029-06-29" },
+        { "start": "2027-02-08", "end": "2030-01-18" }
+      ],
+      "fees_total": 54000,
+      "payment_plan": "6,000 per semester across 9 semesters or upfront annual payment with 5% discount",
+      "prerequisites": "Year 12 ATAR of 65+ OR completed Diploma of Information Technology (credit for first year may apply).",
+      "suitable_for": "school_passout_or_diploma",
+      "interests": ["technology", "software", "programming", "systems", "cloud"],
+      "career_outcomes": ["Software Developer", "Systems Analyst", "Cloud Support Engineer", "Network Administrator"],
+      "pathway_to": "MDS-301"
+    },
+    {
+      "code": "BCS-202",
+      "name": "Bachelor of Computer Science (Artificial Intelligence)",
+      "level": "undergraduate",
+      "stream": "IT",
+      "duration_months": 36,
+      "delivery": "On-campus",
+      "intakes": [
+        { "start": "2026-07-20", "end": "2029-06-29" },
+        { "start": "2027-02-08", "end": "2030-01-18" }
+      ],
+      "fees_total": 58500,
+      "payment_plan": "6,500 per semester across 9 semesters",
+      "prerequisites": "Year 12 ATAR of 75+ with Mathematics Advanced, OR completed Diploma of Data Analytics with distinction average.",
+      "suitable_for": "school_passout_or_diploma",
+      "interests": ["artificial intelligence", "machine learning", "programming", "mathematics", "data"],
+      "career_outcomes": ["AI Engineer", "Machine Learning Developer", "Data Scientist (Junior)", "Software Engineer"],
+      "pathway_to": "MAI-306"
+    },
+    {
+      "code": "BBUS-203",
+      "name": "Bachelor of Business",
+      "level": "undergraduate",
+      "stream": "Business",
+      "duration_months": 36,
+      "delivery": "On-campus or Online",
+      "intakes": [
+        { "start": "2026-07-20", "end": "2029-06-29" },
+        { "start": "2026-10-12", "end": "2029-09-21" }
+      ],
+      "fees_total": 51000,
+      "payment_plan": "5,667 per semester across 9 semesters",
+      "prerequisites": "Year 12 ATAR of 60+ OR completed Diploma of Business or Diploma of Digital Marketing (up to one year credit).",
+      "suitable_for": "school_passout_or_diploma",
+      "interests": ["business", "management", "marketing", "finance", "entrepreneurship"],
+      "career_outcomes": ["Business Analyst", "Marketing Coordinator", "Operations Officer", "Management Trainee"],
+      "pathway_to": "MBA-303"
+    },
+    {
+      "code": "BACC-204",
+      "name": "Bachelor of Accounting",
+      "level": "undergraduate",
+      "stream": "Business",
+      "duration_months": 36,
+      "delivery": "On-campus or Online",
+      "intakes": [
+        { "start": "2027-02-08", "end": "2030-01-18" }
+      ],
+      "fees_total": 52500,
+      "payment_plan": "5,834 per semester across 9 semesters",
+      "prerequisites": "Year 12 ATAR of 65+ with a pass in Mathematics.",
+      "suitable_for": "school_passout_or_diploma",
+      "interests": ["accounting", "finance", "numbers", "tax", "auditing"],
+      "career_outcomes": ["Graduate Accountant", "Auditor (Entry)", "Payroll Officer", "Tax Associate"],
+      "pathway_to": "MBA-303"
+    },
+    {
+      "code": "BNUR-205",
+      "name": "Bachelor of Nursing",
+      "level": "undergraduate",
+      "stream": "Health",
+      "duration_months": 36,
+      "delivery": "On-campus (800 hours clinical placement)",
+      "intakes": [
+        { "start": "2026-07-20", "end": "2029-06-29" },
+        { "start": "2027-02-08", "end": "2030-01-18" }
+      ],
+      "fees_total": 62000,
+      "payment_plan": "6,889 per semester across 9 semesters",
+      "prerequisites": "Year 12 ATAR of 70+ with a science subject, OR completed Diploma of Health Services Assistance. Police check, WWCC and full immunisation required.",
+      "suitable_for": "school_passout_or_diploma",
+      "interests": ["nursing", "healthcare", "helping people", "medicine", "patient care"],
+      "career_outcomes": ["Registered Nurse (upon AHPRA-equivalent registration)", "Clinical Nurse (with experience)"],
+      "pathway_to": "MPH-305"
+    },
+    {
+      "code": "BHSC-206",
+      "name": "Bachelor of Health Science",
+      "level": "undergraduate",
+      "stream": "Health",
+      "duration_months": 36,
+      "delivery": "On-campus or Online",
+      "intakes": [
+        { "start": "2026-07-20", "end": "2029-06-29" }
+      ],
+      "fees_total": 49500,
+      "payment_plan": "5,500 per semester across 9 semesters",
+      "prerequisites": "Year 12 ATAR of 60+ OR completed Diploma of Community Services.",
+      "suitable_for": "school_passout_or_diploma",
+      "interests": ["health", "public health", "wellbeing", "science", "community"],
+      "career_outcomes": ["Health Promotion Officer", "Community Health Worker", "Health Program Coordinator"],
+      "pathway_to": "MPH-305"
+    },
+    {
+      "code": "MDS-301",
+      "name": "Master of Data Science",
+      "level": "postgraduate",
+      "stream": "IT",
+      "duration_months": 24,
+      "delivery": "On-campus or Online",
+      "intakes": [
+        { "start": "2026-07-20", "end": "2028-07-07" },
+        { "start": "2027-02-08", "end": "2029-01-26" }
+      ],
+      "fees_total": 46000,
+      "payment_plan": "11,500 per semester across 4 semesters",
+      "prerequisites": "Completed undergraduate degree in IT, computer science, mathematics, engineering or a related quantitative field. Applicants from other fields need 2+ years of relevant work experience.",
+      "suitable_for": "graduate",
+      "interests": ["data science", "machine learning", "analytics", "statistics", "ai"],
+      "career_outcomes": ["Data Scientist", "Machine Learning Engineer", "Analytics Lead", "Data Engineer"],
+      "pathway_to": null
+    },
+    {
+      "code": "MCYB-302",
+      "name": "Master of Cybersecurity",
+      "level": "postgraduate",
+      "stream": "IT",
+      "duration_months": 24,
+      "delivery": "On-campus or Online",
+      "intakes": [
+        { "start": "2026-10-12", "end": "2028-09-29" }
+      ],
+      "fees_total": 47500,
+      "payment_plan": "11,875 per semester across 4 semesters",
+      "prerequisites": "Completed undergraduate degree in IT or computer science, OR any undergraduate degree plus 3+ years in an IT role.",
+      "suitable_for": "graduate",
+      "interests": ["cybersecurity", "security", "networks", "ethical hacking", "risk"],
+      "career_outcomes": ["Security Analyst", "Penetration Tester", "Security Architect", "GRC Consultant"],
+      "pathway_to": null
+    },
+    {
+      "code": "MBA-303",
+      "name": "Master of Business Administration (MBA)",
+      "level": "postgraduate",
+      "stream": "Business",
+      "duration_months": 24,
+      "delivery": "On-campus, Online or Weekend Executive mode",
+      "intakes": [
+        { "start": "2026-07-20", "end": "2028-07-07" },
+        { "start": "2026-10-12", "end": "2028-09-29" },
+        { "start": "2027-02-08", "end": "2029-01-26" }
+      ],
+      "fees_total": 55000,
+      "payment_plan": "13,750 per semester across 4 semesters; corporate sponsorship invoicing available",
+      "prerequisites": "Completed undergraduate degree in any field plus 2+ years of professional work experience.",
+      "suitable_for": "graduate",
+      "interests": ["leadership", "management", "strategy", "business", "career growth"],
+      "career_outcomes": ["Business Manager", "Strategy Consultant", "Product Manager", "Operations Director (with experience)"],
+      "pathway_to": null
+    },
+    {
+      "code": "MPM-304",
+      "name": "Master of Project Management",
+      "level": "postgraduate",
+      "stream": "Business",
+      "duration_months": 18,
+      "delivery": "Online or Weekend mode",
+      "intakes": [
+        { "start": "2026-07-20", "end": "2027-12-17" },
+        { "start": "2027-02-08", "end": "2028-07-28" }
+      ],
+      "fees_total": 39500,
+      "payment_plan": "13,167 per semester across 3 semesters",
+      "prerequisites": "Completed undergraduate degree in any field. Aligned with PMBOK and PRINCE2 frameworks; counts toward PMP eligibility hours.",
+      "suitable_for": "graduate",
+      "interests": ["project management", "delivery", "agile", "leadership", "organisation"],
+      "career_outcomes": ["Project Manager", "Program Coordinator", "Scrum Master", "PMO Analyst"],
+      "pathway_to": null
+    },
+    {
+      "code": "MPH-305",
+      "name": "Master of Public Health",
+      "level": "postgraduate",
+      "stream": "Health",
+      "duration_months": 24,
+      "delivery": "On-campus or Online",
+      "intakes": [
+        { "start": "2027-02-08", "end": "2029-01-26" }
+      ],
+      "fees_total": 44000,
+      "payment_plan": "11,000 per semester across 4 semesters",
+      "prerequisites": "Completed undergraduate degree in health science, nursing, or a related field. Other degrees considered with health-sector work experience.",
+      "suitable_for": "graduate",
+      "interests": ["public health", "epidemiology", "health policy", "community health"],
+      "career_outcomes": ["Public Health Officer", "Epidemiology Analyst", "Health Policy Adviser", "Program Manager (Health)"],
+      "pathway_to": null
+    },
+    {
+      "code": "MAI-306",
+      "name": "Graduate Certificate in Artificial Intelligence",
+      "level": "postgraduate",
+      "stream": "IT",
+      "duration_months": 6,
+      "delivery": "Online",
+      "intakes": [
+        { "start": "2026-07-20", "end": "2027-01-15" },
+        { "start": "2026-10-12", "end": "2027-04-09" },
+        { "start": "2027-02-08", "end": "2027-07-30" }
+      ],
+      "fees_total": 12000,
+      "payment_plan": "Single upfront payment or 2 instalments of 6,000",
+      "prerequisites": "Completed undergraduate degree in any field with basic programming knowledge (Python preferred), OR 3+ years in a technical role.",
+      "suitable_for": "graduate",
+      "interests": ["artificial intelligence", "machine learning", "upskilling", "technology"],
+      "career_outcomes": ["AI-literate Professional", "Pathway to Master of Data Science (full credit for completed units)"],
+      "pathway_to": "MDS-301"
+    }
+  ]
+}
