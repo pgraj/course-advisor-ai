@@ -1,0 +1,31 @@
+[project]
+name = "course-advisor-ai"
+version = "0.1.0"
+description = "AI Course Advisor: RAG chatbot with Azure OpenAI, ChromaDB, and a profile-driven recommendation engine."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [{ name = "Panditha Govindaraj", email = "govind.labs@outlook.com" }]
+dependencies = [
+    "openai>=1.0",
+    "python-dotenv>=1.0",
+    "chromadb>=0.5",
+    "streamlit>=1.38",
+    "pypdf>=5.0",
+]
+
+[project.scripts]
+course-advisor = "course_advisor.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/pgraj/course-advisor-ai"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+"course_advisor" = ["data/courses/*.json", "data/policies/*.md"]
